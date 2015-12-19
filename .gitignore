@@ -1,0 +1,8 @@
+bin/*
+gen/*
+*.swp
+local.properties
+.hg
+.hgignore
+libs/android-*.jar
+

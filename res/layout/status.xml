@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="8dip" >
+
+
+    <!-- Things to show:
+        1. Printer state: Idle / Printing (% completed from SD?) / Error
+        2. If printing, print duration. If finished printing, final print time
+        3. XYZ Printer location
+        4. Bed and nozzle tempuratures and targets
+    -->
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="54dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="24dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text=""
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tempuratures"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text=""
+        android:gravity="center" />
+
+</LinearLayout>
+
